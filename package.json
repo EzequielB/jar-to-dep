@@ -1,0 +1,31 @@
+{
+  "name": "jar-to-dependency",
+  "version": "1.0.0",
+  "description": "Simple tool to transform jars files into managed dependencies using a resolver service (currently maven central support only)",
+  "main": "cli.js",
+  "bin": {
+    "jar-to-dep": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EzequielB",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-google": "^0.4.0"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "fs": "0.0.2",
+    "commander": "^2.9.0",
+    "node-rest-client": "^1.8.0"
+  },
+  "keywords": [
+    "file",
+    "jar",
+    "dependency",
+    "gradle",
+    "maven"
+  ]
+}
