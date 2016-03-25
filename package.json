@@ -7,7 +7,7 @@
     "jar-to-dep": "./cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "EzequielB",
   "license": "ISC",
@@ -30,5 +30,9 @@
     "dependency",
     "gradle",
     "maven"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EzequielB/jar-to-dep.git"
+  }
 }
