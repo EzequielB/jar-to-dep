@@ -1,6 +1,6 @@
 {
   "name": "jar-to-dependency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tool to transform jars files into managed dependencies using a resolver service (currently maven central support only)",
   "main": "cli.js",
   "bin": {
