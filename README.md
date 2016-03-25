@@ -2,7 +2,7 @@
 Simple tool to transform jars files into managed dependencies using a resolver service (currently maven central support only)
 
 ### Installation
-```npm install jar-to-dep -g```
+```npm install jar-to-dependency -g```
 
 ### Usage
 ```
