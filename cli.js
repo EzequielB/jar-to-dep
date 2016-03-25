@@ -4,7 +4,7 @@
 // TODO: add support for ouput option (-o fileToWrite)
 
 var program = require('commander');
-var JarToDependency = require('./JarToDependency.js');
+var JarToDependency = require('./lib/JarToDependency.js');
 
 program
   .option('-p, --path <path>', 'the path of a jar or where to scan for jars')
