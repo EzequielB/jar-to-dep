@@ -1,7 +1,7 @@
 # jar-to-dep
 [![Build Status](https://travis-ci.org/EzequielB/jar-to-dep.svg?branch=master)](https://travis-ci.org/EzequielB/jar-to-dep)
 
-Simple tool to transform jars files into managed dependencies using a resolver service (currently maven central support only)
+Given a set of jar files tries to find the proper dependency on maven central by hash search. Prints the results either as gradle or maven dependency format, or csv.
 
 ### Installation
 ```npm install jar-to-dependency -g```
