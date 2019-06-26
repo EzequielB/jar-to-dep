@@ -18,3 +18,13 @@ Options:
 -f, --format <format>  the format of the ouput [gradle|maven|csv]
 -v, --verbose          prints the failed jars or those having multiple possible dependencies
 ```
+
+### Example
+
+```
+$ jar-to-dep --path /path/to/jars/mysql-connector.jar 
+compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.21'
+
+$ jar-to-dep --path /path/to/jars/ -f maven
+<dependency><groupId>mysql</groupId><artifactId>mysql-connector-java</artifactId><version>5.1.21</version></dependency>
+```
